@@ -11,9 +11,15 @@ public class Reverse {
        
         System.out.println(); // Move to the next line
 
-        int isMiddle = (s.length() / 2) -1;
-          
-        System.out.println("The middle character is " + s.charAt(isMiddle));
+        if (s.length() % 2 == 0) {
+
+          System.out.println("The middle character is " + s.charAt((s.length() / 2) -1));
+
+        } else if (s.length() % 2 != 0) {
+
+            System.out.println("The middle character is " + s.charAt((s.length() / 2)));
+
+             }
 
         }
         
