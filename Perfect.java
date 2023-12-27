@@ -13,9 +13,9 @@ public class Perfect {
 		}
 	 
 	if (sum == num) {
-	System.out.println(num + "  is a perfect number since " + num + sSum);
+	System.out.println(num + " is a perfect number since " + num + sSum);
 }   else {
-	 System.out.println(num + "  is not a perfect number"); 
+	 System.out.println(num + " is not a perfect number"); 
 
            }   
 
